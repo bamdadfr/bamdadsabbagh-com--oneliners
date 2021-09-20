@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { useAtom } from 'jotai'
 import { parseTimestamps } from '../utils/parse-timestamps'
 import { parseFilename } from '../utils/parse-filename'
 import { getSplitCommand } from '../utils/get-split-command'
 import { setOutputAtom } from '../../../atoms/output.atoms'
+import { useInput } from '../../../hooks/use-input'
 
 /**
  * @typedef {string} Filename
@@ -14,8 +15,8 @@ import { setOutputAtom } from '../../../atoms/output.atoms'
  */
 export function useFfmpegSplitModule () {
 
-    const [filename, handleFilename] = useState ('')
-    const [timestamps, handleTimestamps] = useState ('')
+    const [filename, handleFilename] = useInput ()
+    const [timestamps, handleTimestamps] = useInput ()
     const [, setOutput] = useAtom (setOutputAtom)
 
     useEffect (() => {
