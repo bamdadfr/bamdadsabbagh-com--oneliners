@@ -1,16 +1,33 @@
 import React from 'react'
-import { Container, Button, TextArea } from './output.component.styles'
+import { Container, Top, Button, TextArea } from './output.component.styles'
+import { useOutputComponent } from './hooks/use-output-component'
 
 /**
  * @returns {React.ReactElement} react component
  */
 export function OutputComponent () {
 
+    const {
+        invokeCopy,
+        output,
+    } = useOutputComponent ()
+
     return (
         <>
             <Container>
-                <Button type="button">copy</Button>
-                <TextArea placeholder="output" disabled/>
+                <Top>
+                    <Button
+                        type="button"
+                        onClick={invokeCopy}
+                    >
+                        copy
+                    </Button>
+                </Top>
+                <TextArea
+                    placeholder="output"
+                    disabled
+                    value={output}
+                />
             </Container>
         </>
     )

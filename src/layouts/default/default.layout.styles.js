@@ -22,3 +22,20 @@ export const Right = styled.div`
     
     margin: 1em;
 `
+
+export const Content = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 20px;
+
+    * {
+        border: 1px solid black;
+        width: 100%;
+    }
+
+    textarea {
+        height: 500px;
+    }
+`
