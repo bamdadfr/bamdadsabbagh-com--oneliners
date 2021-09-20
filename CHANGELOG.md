@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/bamdadsabbagh/bamdadsabbagh-com--oneliners/compare/v1.0.0...v1.0.1) (2021-09-20)
+
+
+### Bug Fixes
+
+* **ffmpeg-split-module:** fix correct hook `useInput` ([06b5e3d](https://github.com/bamdadsabbagh/bamdadsabbagh-com--oneliners/commit/06b5e3d072a6016399ae30da8d3a2cecb61c757b))
+
 # 1.0.0 (2021-09-20)
 
 
