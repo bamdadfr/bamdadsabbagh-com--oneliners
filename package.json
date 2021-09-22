@@ -36,6 +36,6 @@
         "eslint-config-next": "^11.1.2",
         "rimraf": "^3.0.2",
         "sass": "^1.41.1",
-        "sass-reset": "^1.0.3"
+        "sass-reset": "^1.0.4"
     }
 }
