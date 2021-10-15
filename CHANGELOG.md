@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/bamdadsabbagh/bamdadsabbagh-com--oneliners/compare/v1.0.4...v1.0.5) (2021-10-15)
+
+
+### Performance Improvements
+
+* **deps:** update to latest dependencies ([71c2ab4](https://github.com/bamdadsabbagh/bamdadsabbagh-com--oneliners/commit/71c2ab4b02960cfec43059f901ff8199b939b0f9))
+
 ## [1.0.4](https://github.com/bamdadsabbagh/bamdadsabbagh-com--oneliners/compare/v1.0.3...v1.0.4) (2021-10-11)
 
 
