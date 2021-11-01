@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/bamdadsabbagh/bamdadsabbagh-com--oneliners/compare/v1.0.7...v1.0.8) (2021-11-01)
+
+
+### Bug Fixes
+
+* **asfalte:** ⚙️ yarn-upgrade--onMondays-1000 ([7e0bbab](https://github.com/bamdadsabbagh/bamdadsabbagh-com--oneliners/commit/7e0bbab0591a635493da06330e4c744124901352))
+
 ## [1.0.7](https://github.com/bamdadsabbagh/bamdadsabbagh-com--oneliners/compare/v1.0.6...v1.0.7) (2021-10-25)
 
 
