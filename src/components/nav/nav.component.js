@@ -1,22 +1,22 @@
-import React from 'react'
-import { Container } from './nav.component.styles'
+import React from 'react';
+import { Container } from './nav.component.styles';
 
 /**
- * @returns {React.ReactElement} react component
+ * Component to render the navbar
+ *
+ * @returns {React.ReactElement} - Navbar component
  */
 export function NavComponent () {
-
-    return (
-        <>
-            <Container>
-                <select>
-                    <option>ffmpeg</option>
-                </select>
-                <select>
-                    <option>split</option>
-                </select>
-            </Container>
-        </>
-    )
-
+  return (
+    <>
+      <Container>
+        <select>
+          <option>ffmpeg</option>
+        </select>
+        <select>
+          <option>split</option>
+        </select>
+      </Container>
+    </>
+  );
 }
