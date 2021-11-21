@@ -1,6 +1,6 @@
 import React from 'react';
-import { DefaultLayout } from '../../layouts/default/default.layout';
-import { FfmpegSplitModule } from '../../modules/ffmpeg-split/ffmpeg-split.module';
+import {DefaultLayout} from '../../layouts/default/default.layout';
+import {FfmpegSplitModule} from '../../modules/ffmpeg-split/ffmpeg-split.module';
 
 /**
  * FFmpeg Split Page
@@ -8,7 +8,7 @@ import { FfmpegSplitModule } from '../../modules/ffmpeg-split/ffmpeg-split.modul
  *
  * @returns {React.ReactElement} - FFmpeg Split Page
  */
-export default function FfmpegSplitPage () {
+export default function FfmpegSplitPage() {
   return (
     <>
       <DefaultLayout>

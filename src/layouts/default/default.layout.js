@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Left, Right, Content } from './default.layout.styles';
-import { NavComponent } from '../../components/nav/nav.component';
-import { OutputComponent } from '../../components/output/output.component';
+import {Container, Left, Right, Content} from './default.layout.styles';
+import {NavComponent} from '../../components/nav/nav.component';
+import {OutputComponent} from '../../components/output/output.component';
 
 const propTypes = {
   children: PropTypes.node.isRequired,
@@ -15,7 +15,7 @@ const propTypes = {
  * @param {React.ReactNode} props.children - Children to render
  * @returns {React.ReactElement} - Default layout component
  */
-export function DefaultLayout ({ children }) {
+export function DefaultLayout({children}) {
   return (
     <>
       <Container>

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import 'sass-reset';
-import { WithStyledComponents } from '../app/components/with-styled-components/with-styled-components';
+import {WithStyledComponents} from '../app/components/with-styled-components/with-styled-components';
 
 const propTypes = {
   'Component': PropTypes.func.isRequired,
@@ -22,7 +22,7 @@ const defaultProps = {
  * @param {*} props.err next.js errors
  * @returns {React.ReactElement} react component
  */
-export default function MyApp ({ Component, pageProps, err }) {
+export default function MyApp({Component, pageProps, err}) {
   // useApp()
 
   return (
