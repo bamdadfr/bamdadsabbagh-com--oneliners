@@ -1,12 +1,12 @@
 import React from 'react';
-import { Container } from './nav.component.styles';
+import {Container} from './nav.component.styles';
 
 /**
  * Component to render the navbar
  *
  * @returns {React.ReactElement} - Navbar component
  */
-export function NavComponent () {
+export function NavComponent() {
   return (
     <>
       <Container>

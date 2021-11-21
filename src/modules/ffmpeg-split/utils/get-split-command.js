@@ -9,7 +9,7 @@
  * @param {number} options.index - The index of the file
  * @returns {string} - The split command
  */
-export function getSplitCommand ({ name, extension, index, start, end }) {
+export function getSplitCommand({name, extension, index, start, end}) {
   const command = `ffmpeg -c:v libvpx-vp9 -i "${name}.${extension}" -ss ${start} -to ${end} -c:v copy -c:a copy "${name} SPLIT${index}.${extension}"`;
   const isNewLine = index !== 0;
   const newLine = ' && ';

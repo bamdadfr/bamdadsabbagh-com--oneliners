@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { useRouter } from 'next/router';
+import React, {useEffect} from 'react';
+import {useRouter} from 'next/router';
 
 /**
  * Index page
@@ -7,13 +7,13 @@ import { useRouter } from 'next/router';
  *
  * @returns {React.ReactNode} - Index page
  */
-export default function IndexPage () {
-  const router = useRouter ();
+export default function IndexPage() {
+  const router = useRouter();
 
-  useEffect (() => {
+  useEffect(() => {
     (async () => {
-      await router.replace ('/ffmpeg/split');
-    }) ();
+      await router.replace('/ffmpeg/split');
+    })();
   }, [router]);
 
   return (

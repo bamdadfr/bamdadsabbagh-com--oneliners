@@ -1,18 +1,18 @@
 import React from 'react';
-import { useFfmpegSplitModule } from './hooks/use-ffmpeg-split-module';
+import {useFfmpegSplitModule} from './hooks/use-ffmpeg-split-module';
 
 /**
  * Component to render the FFmpeg Split module
  *
  * @returns {React.ReactElement} - FFmpeg Split module component
  */
-export function FfmpegSplitModule () {
+export function FfmpegSplitModule() {
   const {
     filename,
     handleFilename,
     timestamps,
     handleTimestamps,
-  } = useFfmpegSplitModule ();
+  } = useFfmpegSplitModule();
 
   return (
     <>
