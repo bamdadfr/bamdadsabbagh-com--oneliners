@@ -1,3 +1,10 @@
+# [2.0.0](https://github.com/bamdadsabbagh/bamdadsabbagh-com--oneliners/compare/v1.0.11...v2.0.0) (2021-11-21)
+
+
+### Features
+
+* add merge and delete to split module ([50cab1c](https://github.com/bamdadsabbagh/bamdadsabbagh-com--oneliners/commit/50cab1c42d112c4ffebe7dff21949958dde7bf17))
+
 ## [1.0.11](https://github.com/bamdadsabbagh/bamdadsabbagh-com--oneliners/compare/v1.0.10...v1.0.11) (2021-11-15)
 
 
