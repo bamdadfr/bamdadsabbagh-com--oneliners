@@ -41,6 +41,7 @@ export function useFfmpegSplitModule() {
 
     let output = '';
 
+    // split
     parsedTimestamps.forEach((time, index) => {
       const {start, end} = time;
 
@@ -51,6 +52,20 @@ export function useFfmpegSplitModule() {
         start,
         end,
       });
+    });
+
+    // merge
+    output += ' && mkvmerge -o "out.mkv" ';
+    parsedTimestamps.forEach((_time, index) => {
+      const splitName = `"${name} SPLIT${index}.${extension}"`;
+      const prefix = index === 0 ? '' : '+ ';
+      output += `${prefix}${splitName} `;
+    });
+
+    // delete
+    parsedTimestamps.forEach((_time, index) => {
+      const splitName = `"${name} SPLIT${index}.${extension}"`;
+      output += `&& rm ${splitName} `;
     });
 
     setOutput(output);
