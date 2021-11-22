@@ -274,9 +274,9 @@
     to-fast-properties "^2.0.0"
 
 "@bamdadsabbagh/eslint-config@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@bamdadsabbagh/eslint-config/-/eslint-config-2.0.1.tgz#9714fc751cf030beaa100be08176ae6fedaa8491"
-  integrity sha512-dcZ/fBJTr2I8OkFOZDc3WR1uiHe4snfBv/iJu8X20ADgElayc+U473z2sguKsTTiVybFIl6tZDlz/9fJPA90Gw==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@bamdadsabbagh/eslint-config/-/eslint-config-2.0.2.tgz#f862957f648a3825c80d6a78ed4df6b22f06b5fe"
+  integrity sha512-qTXQUw1tw8Kj5YnuRrTZNqwLjqyb6WSPywBki7LG4E4+qZlpozlzjh7iBA0WuYnSfr/6LfLyWUdNVJqlICTcEw==
   dependencies:
     "@babel/core" "^7.15.0"
     "@babel/eslint-parser" "^7.15.0"
@@ -300,9 +300,9 @@
     typescript "^4.3.5"
 
 "@bamdadsabbagh/stylelint-config@^1.3.30":
-  version "1.3.35"
-  resolved "https://registry.yarnpkg.com/@bamdadsabbagh/stylelint-config/-/stylelint-config-1.3.35.tgz#8dab29bcb61adccd22ed0a13df8c62496c130872"
-  integrity sha512-f7QDbvgvDkX8kZc6L0vbdo7NhpetouFKl8nuASx2DZrp9NSwX6Qe6xJX6LryF2LpxCYKuSUuZae5w0VICibE1Q==
+  version "1.3.36"
+  resolved "https://registry.yarnpkg.com/@bamdadsabbagh/stylelint-config/-/stylelint-config-1.3.36.tgz#1bb9ecec400c6a144c28adac0fee8b499deafbca"
+  integrity sha512-VlM1wHNiFqQVfV+ScUqIWGT3vlqQtYowKCZHK1KRzNBTXftShncIQpPlTdVRt265SuFIoGyjdQ76IlbqjxbLzA==
   dependencies:
     stylelint "^13.5.0"
     stylelint-config-prettier "^8.0.1"
@@ -777,9 +777,9 @@ ajv@^6.10.0, ajv@^6.12.4:
     uri-js "^4.2.2"
 
 ajv@^8.0.1:
-  version "8.8.1"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.8.1.tgz#e73dd88eeb4b10bbcd82bee136e6fbe801664d18"
-  integrity sha512-6CiMNDrzv0ZR916u2T+iRunnD60uWmNn8SkdB44/6stVORUg0aAkWO7PkOhpCmjmW8f2I/G/xnowD66fxGyQJg==
+  version "8.8.2"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.8.2.tgz#01b4fef2007a28bf75f0b7fc009f62679de4abbb"
+  integrity sha512-x9VuX+R/jcFj1DHo/fCp99esgGDWiHENrKxaCENuCxpoMCmAt/COCGVDwA7kleEpEzJjDnvh3yGoOuLu0Dtllw==
   dependencies:
     fast-deep-equal "^3.1.1"
     json-schema-traverse "^1.0.0"
@@ -936,9 +936,9 @@ axobject-query@^2.2.0:
   integrity sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==
 
 "babel-plugin-styled-components@>= 1.12.0", babel-plugin-styled-components@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-2.0.0.tgz#9434aae99ea0cf762c4de2346d88be2c5c421bef"
-  integrity sha512-Cpzq6y9laI/Q1tRvNiw6FW2g3SKb0K0dBfuC0Aw1w3qSl7IzHM3iHXhIQyHSFRI7A67NhPXvg9cPg0KlXjCoNQ==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-2.0.1.tgz#4d1ea2169363887ffce5352f32080cba14d243cc"
+  integrity sha512-U3wmORxerYBiqcRCo6thItIosEIga3F+ph0jJPkiOZJjyhpZyUZFQV9XvrZ2CbBIihJ3rDBC/itQ+Wx3VHMauw==
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.16.0"
     "@babel/helper-module-imports" "^7.16.0"
