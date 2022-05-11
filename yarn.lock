@@ -2250,10 +2250,10 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
-jotai@^1.4.4:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.6.4.tgz#4d9904362c53c4293d32e21fb358d3de34b82912"
-  integrity sha512-XC0ExLhdE6FEBdIjKTe6kMlHaAUV/QiwN7vZond76gNr/WdcdonJOEW79+5t8u38sR41bJXi26B1dRi7cCRz9A==
+jotai@^1.6.6:
+  version "1.6.6"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.6.6.tgz#ec3a8b4e5a323b00c2f9ca0d05825d0aeaeebe75"
+  integrity sha512-rzUyxHFImnDDjUmC0i0BXyppq1M6ZxrHjhp0SK3VQXvXYAu5Hz9wPJ6w207s2Mlv7jpfiIf26w9m82FLCP3eqw==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
