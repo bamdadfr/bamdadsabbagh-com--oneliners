@@ -3142,10 +3142,10 @@ sass-reset@^1.0.3:
   resolved "https://registry.yarnpkg.com/sass-reset/-/sass-reset-1.0.4.tgz#34b7c22383d63f03500f730f009014bb05fc3ee8"
   integrity sha512-oS/ZgwGlKjDwVzSSLc5ky3DuLQGrZlBldhRvQy0VK4XcEby/A36eeOm32v4b8rv0Zc1Sg/adM3HPNVoeuJUWGA==
 
-sass@^1.43.2:
-  version "1.50.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.50.1.tgz#e9b078a1748863013c4712d2466ce8ca4e4ed292"
-  integrity sha512-noTnY41KnlW2A9P8sdwESpDmo+KBNkukI1i8+hOK3footBUcohNHtdOJbckp46XO95nuvcHDDZ+4tmOnpK3hjw==
+sass@^1.52.3:
+  version "1.52.3"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.52.3.tgz#b7cc7ffea2341ccc9a0c4fd372bf1b3f9be1b6cb"
+  integrity sha512-LNNPJ9lafx+j1ArtA7GyEJm9eawXN8KlA1+5dF6IZyoONg1Tyo/g+muOsENWJH/2Q1FHbbV4UwliU0cXMa/VIA==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
